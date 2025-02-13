@@ -2,6 +2,25 @@
 
 This project implements a synthetic data generation system using CTGAN (Conditional Tabular GAN), which can create realistic synthetic data while preserving statistical properties of the original dataset.
 
+## Dataset
+
+This project uses the PaySim Financial Dataset:
+- **Source**: [PaySim synthetic financial dataset on Kaggle](https://www.kaggle.com/datasets/ealaxi/paysim1)
+- **Description**: PaySim simulates mobile money transactions based on a sample of real transactions extracted from one month of financial logs from a mobile money service implemented in an African country.
+- **Features**: The dataset includes information about financial transactions including:
+  - Type of transaction
+  - Amount
+  - Customer information
+  - Merchant information
+  - Fraud labels
+
+To use this dataset:
+1. Download the dataset from Kaggle
+2. Place the CSV file in the `data/` directory
+3. Rename it to `input_data.csv` or update the input file path in the script
+
+Note: You'll need a Kaggle account to download the dataset.
+
 ## Features
 
 - Automatic detection of categorical columns
