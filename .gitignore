@@ -1,0 +1,21 @@
+# Configuration files
+config.py
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints 
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+venv/
+
+data/input_data.csv
